@@ -49,5 +49,5 @@ function myCallback({ quantity }) {
 // Group by Quantity
 const result = Object.groupBy(vegetable, myCallback);
 
-console.log(result);
+console.log(result);// the result
 
