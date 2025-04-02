@@ -10,9 +10,15 @@ let object = {
   },
   hobbies: ['reading', 'traveling', 'coding'],
 }
+const fruits = {Bananas:300, Oranges:200, Apples:500};
+
+const myMap = new Map(Object.entries(fruits));
+
+console.log(myMap)
 
 
-console.log(Object.keys(object))
+console.log(Object.keys(object))// return the keys values from the object array 
 console.log(Object.entries(object)) //return the array of the objects
+console.log(Object.values(object)) // return the values of the object
 
 
