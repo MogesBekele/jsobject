@@ -1,4 +1,4 @@
-
+const header = document.querySelector('header');
 
 let object = {
   name: 'moges',
@@ -10,3 +10,4 @@ let object = {
   },
   hobbies: ['reading', 'traveling', 'coding'],
 }
+
