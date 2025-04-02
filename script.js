@@ -11,8 +11,8 @@ let object = {
   hobbies: ['reading', 'traveling', 'coding'],
 }
 
-console.log(object);
-console.log(Object.keys(object))
 
+console.log(Object.keys(object))
+console.log(Object.entries(object)) //return the array of the objects
 
 
