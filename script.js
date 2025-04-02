@@ -29,7 +29,7 @@ document.getElementById("demo").innerHTML =object.name + " " + object.age + " " 
 console.log(myMap)// return the map object
 console.log(Object.keys(object))// return the keys values from the object array 
 console.log(Object.entries(object)) //return the array of the objects
-// console.log(Object.values(object)) // return the values of the object
+console.log(Object.values(object)) // return the values of the object
 // console.log(myObj) // return the object from the array 
 
 
