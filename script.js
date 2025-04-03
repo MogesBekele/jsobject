@@ -51,4 +51,13 @@
 document.getElementById("demo").innerHTML =object.name + " " + object.age + " " + object.emial + " " + object.address.city + " " + object.address.country + " " + object.hobbies[0] + " " + object.hobbies[1] + " " + object.hobbies[2] // return the values from the object;
 
 
+const button = document.getElementById('button')
+
+const changeColor =()=>{
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+  document.getElementById('color').innerHTML = randomColor;
+}
+
+
 
