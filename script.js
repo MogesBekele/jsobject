@@ -47,7 +47,15 @@ const button = document.getElementById("button");
 
 
 const changeColor = () => {
-  document.getElementById("h1").innerHTML.style.color = "red";
+ const h1=  document.getElementById("h1")
+
+ if(h1){
+  h1.style.color = 'red';
+ }
+  else{
+    h1.style.color = 'blue';
+  }
+
 };
 
 changeColor();
