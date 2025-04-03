@@ -62,4 +62,8 @@ const changeColor = () => {
 
 
 
-button.addEventListener("click", changeColor);
+if (button) {
+  button.addEventListener("click", changeColor);
+} else {
+  console.error("Element with ID 'button' not found.");
+}
