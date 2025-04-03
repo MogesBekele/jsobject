@@ -24,7 +24,7 @@ const fruits = [
 const myObj = Object.fromEntries(fruits);
 
 
-document.getElementById("demo").innerHTML =object.name + " " + object.age + " " + object.emial + " " + object.address.city + " " + object.address.country + " " + object.hobbies[0] + " " + object.hobbies[1] + " " + object.hobbies[2] 
+document.getElementById("demo").innerHTML =object.name + " " + object.age + " " + object.emial + " " + object.address.city + " " + object.address.country + " " + object.hobbies[0] + " " + object.hobbies[1] + " " + object.hobbies[2] // return the values from the object;
 
 console.log(myMap)// return the map object
 console.log(Object.keys(object))// return the keys values from the object array 
