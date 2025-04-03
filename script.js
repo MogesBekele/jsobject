@@ -47,10 +47,11 @@ const button = document.getElementById("button");
 
 
 const changeColor = () => {
- const h1=  document.getElementById("h1")
+ const h1Element=  document.getElementById("h1")
 
- if(h1){
-  h1.style.color = 'red';
+ if(h1Element){
+ h1Element.style.backgroundColor = 'red';
+ h1Element.style.color = 'white';
  }
   else{
     h1.style.color = 'blue';
@@ -58,7 +59,7 @@ const changeColor = () => {
 
 };
 
-changeColor();
+
 
 
 button.addEventListener("click", changeColor);
