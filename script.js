@@ -49,8 +49,8 @@ const changeColor = () => {
   const h1Element = document.getElementById("h1");
 
   if (h1Element) {
-    h1Element.style.backgroundColor = "red";
-    h1Element.style.color = "white";
+  
+    h1Element.style.color = "blue";
   } else {
     h1.style.color = "blue";
   }
@@ -61,3 +61,9 @@ if (button) {
 } else {
   console.error("Element with ID 'button' not found.");
 }
+
+const paragraph = document.getElementsByTagName("p");
+
+paragraph[0].style.color = "red";
+paragraph[1].style.color = "blue";
+paragraph[2].style.color = "green";
