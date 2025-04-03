@@ -45,22 +45,16 @@
 
 const button = document.getElementById("button");
 
-
 const changeColor = () => {
- const h1Element=  document.getElementById("h1")
+  const h1Element = document.getElementById("h1");
 
- if(h1Element){
- h1Element.style.backgroundColor = 'red';
- h1Element.style.color = 'white';
- }
-  else{
-    h1.style.color = 'blue';
+  if (h1Element) {
+    h1Element.style.backgroundColor = "red";
+    h1Element.style.color = "white";
+  } else {
+    h1.style.color = "blue";
   }
-
 };
-
-
-
 
 if (button) {
   button.addEventListener("click", changeColor);
