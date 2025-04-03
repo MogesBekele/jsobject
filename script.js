@@ -39,7 +39,7 @@ function myCallback({ quantity }) {
 // Group by Quantity
 const result = Object.groupBy(vegetable, myCallback);
 
-console.log(result);// the result
+console.log(result);
 
 const myObj = Object.fromEntries(fruits);
 
