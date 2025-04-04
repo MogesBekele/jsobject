@@ -149,3 +149,5 @@ console.log(newArray12)// return the string of the array
 const newArray13 = array.concat([1, 2, 3]);// return the concatenated array
 console.log(newArray13)// return the concatenated array
 
+const newArray14 = array.includes(100000);
+
