@@ -130,4 +130,8 @@ array1.sort();
 console.log(array1);
 // Expected output: Array [1, 100000, 21, 30, 4]
 
+const array2 = ["apple", "banana", "cherry"];
+array2.sort();
+console.log(array2);
+
 
