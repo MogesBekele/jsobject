@@ -89,7 +89,7 @@ console.log(newArray3)// return the sum of the array elements
 // reduce: executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 // The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 
-const newArray4 = array.splice(2, 3, 5 ,6 ,6);// return the spliced array
+const newArray4 = array.splice(4, 1, 22);// return the spliced array
 console.log(newArray4)// return the spliced array
 const newArray5 = array.splice(1, 1, 9);// return the spliced array
 console.log(newArray5)// return the spliced array
@@ -100,9 +100,6 @@ splice(start, deleteCount, item1, item2)
 // start: The index at which to start changing the array. If negative, it will begin that many elements from the end.
 // deleteCount: An integer indicating the number of elements in the array to remove from start. If deleteCount is omitted, or if its value is equal to or larger than array.length - start, all elements from start to the end of the array will be removed. If deleteCount is 0, no elements will be removed.
 
-const newArray6 = array.concat(newArray4, newArray5);
-console.log(newArray6)// return the concatenated array
-const newArray7 = array.concat([11, 12, 13]);
-console.log(newArray7)// return the concatenated array
-
+// item1, item2, ...: The elements to add to the array, beginning from start. If you don't specify any elements, splice() will only remove elements from the array.
+// The elements will be added in the order they are specified.
 
