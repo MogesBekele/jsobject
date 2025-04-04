@@ -122,8 +122,7 @@ console.log(newArray6)// return the mapped array
 
 const newArray7 = array.sort((a, b) => b - a);// return the sorted array in descending order
 console.log(newArray7)// return the sorted array in descending order
-const newArray8 = array.sort((a, b) => a - b);// return the sorted array in ascending order
-console.log(newArray8)// return the sorted array in ascending order
+
 
 const array1 = [1, 30, 4, 21, 100000];
 array1.sort();
@@ -157,9 +156,13 @@ console.log(newArray15)// return the index of the element in the array
 const newArray16 = array.lastIndexOf(100000);
 console.log(newArray16)// return the last index of the element in the array
 
+const newArray8 = array.sort((a, b) => a - b);// return the sorted array in ascending order
+console.log(newArray8)// return the sorted array in ascending order
+
 const newArray17 = array.every((item) => item > 0);
 console.log(newArray17)// return true if all elements are greater than 0
 const newArray18 = array.some((item) => item > 0);
 console.log(newArray18)// return true if some elements are greater than 0
-const newArray19 = array.find((item) => item > 2);
+const newArray19 = array.find((item) => item );
 console.log(newArray19)// return the first element that is greater than 0
+
