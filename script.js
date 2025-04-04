@@ -83,7 +83,11 @@ console.log(newArray2)// return the sliced array excuding the first index
 
 const newArray3 = array.reduce((accumulator, currentValue) => accumulator + currentValue);// return the sum of the array elements
 console.log(newArray3)// return the sum of the array elements
-
+//explanetion of the reused methods
+// filter: creates a new array with all elements that pass the test implemented by the provided function.
+// slice: returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+// reduce: executes a reducer function (that you provide) on each element of the array, resulting in single output value.
+// The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 
 
 
