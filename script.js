@@ -134,4 +134,7 @@ const array2 = ["apple", "banana", "cherry"];
 array2.sort();
 console.log(array2);
 
+const newArray9 = array.reverse();// return the reversed array
+console.log(newArray9)// return the reversed array
+
 
