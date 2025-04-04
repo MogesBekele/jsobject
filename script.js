@@ -152,3 +152,7 @@ console.log(newArray13)// return the concatenated array
 const newArray14 = array.includes(100000);
 console.log(newArray14)// return true if the array includes the element
 
+const newArray15 = array.indexOf(100000);
+console.log(newArray15)// return the index of the element in the array
+const newArray16 = array.lastIndexOf(100000);
+console.log(newArray16)// return the last index of the element in the array
