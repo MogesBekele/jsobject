@@ -77,7 +77,9 @@ const newArray = array.filter((item)=> item>4);
 console.log(newArray)// return the filtered array
 
 const newArray1 = array.slice(0, 5);
-console.log(newArray1)// return the sliced array
+console.log(newArray1)// return the sliced array exccluding the last index
+const newArray2 = array.slice(5, 10);// return the sliced array excuding the first index
+console.log(newArray2)// return the sliced array excuding the first index
 
 
 
