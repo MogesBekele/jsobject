@@ -68,3 +68,14 @@ const paragraph = document.getElementsByTagName("p");
 paragraph[0].style.color = "red";
 paragraph[1].style.color = "blue";
 paragraph[2].style.color = "green";
+
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+const newArray = array.filter((item)=> item>4);
+console.log(newArray)// return the filtered array
+
+
+
+
