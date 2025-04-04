@@ -156,3 +156,10 @@ const newArray15 = array.indexOf(100000);
 console.log(newArray15)// return the index of the element in the array
 const newArray16 = array.lastIndexOf(100000);
 console.log(newArray16)// return the last index of the element in the array
+
+const newArray17 = array.every((item) => item > 0);
+console.log(newArray17)// return true if all elements are greater than 0
+const newArray18 = array.some((item) => item > 0);
+console.log(newArray18)// return true if some elements are greater than 0
+const newArray19 = array.find((item) => item > 2);
+console.log(newArray19)// return the first element that is greater than 0
