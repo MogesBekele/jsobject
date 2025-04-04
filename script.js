@@ -176,7 +176,7 @@ console.log(newArray22)// return the filled array with 0 from index 2 to index 4
 
 
 
-const newArray23 = array.copyWithin(0, 3, 6);
+const newArray23 = array.copyWithin(0, 7, 6);// return the copied array from index 3 to index 6
 console.log(newArray23)// return the copied array from index 3 to index 6
 
 
