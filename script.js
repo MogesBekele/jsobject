@@ -41,7 +41,7 @@ const result = Object.groupBy(vegetable, myCallback);
 console.log(result);// the result
 
 const myObj = Object.fromEntries(fruits);
-console.log(myObj) // return the object from the array
+console.log(myObj) 
 
 
 const button = document.getElementById("button");
