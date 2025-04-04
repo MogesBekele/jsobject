@@ -90,6 +90,7 @@ console.log(newArray3)// return the sum of the array elements
 // The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 
 const newArray4 = array.splice(4, 1, 2);// return the spliced array
+console.log(array)
 console.log(newArray4)// return the spliced array
 const newArray5 = array.splice(1, 1, 9);// return the spliced array
 console.log(newArray5)// return the spliced array
