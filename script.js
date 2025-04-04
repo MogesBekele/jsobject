@@ -171,3 +171,6 @@ console.log(newArray20)// return the index of the first element that is greater 
 const newArray21 = array.fill(5);// return the filled array with 0
 console.log(newArray21)// return the filled array with 0
 
+const newArray22 = array.fill(5, 2, 4);// return the filled array with 0 from index 2 to index 4
+console.log(newArray22)// return the filled array with 0 from index 2 to index 4
+
