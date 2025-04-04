@@ -163,6 +163,11 @@ const newArray17 = array.every((item) => item > 0);
 console.log(newArray17)// return true if all elements are greater than 0
 const newArray18 = array.some((item) => item > 0);
 console.log(newArray18)// return true if some elements are greater than 0
-const newArray19 = array.find((item) => item );
+const newArray19 = array.find((item) => item>3);
 console.log(newArray19)// return the first element that is greater than 0
+
+const newArray20 = array.findIndex((item) => item);
+console.log(newArray20)// return the index of the first element that is greater than 0
+const newArray21 = array.fill(0);// return the filled array with 0
+console.log(newArray21)// return the filled array with 0
 
