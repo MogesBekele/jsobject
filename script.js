@@ -120,5 +120,14 @@ console.log(months)
 const newArray6 = array.map((item) => item * 2);// return the mapped array
 console.log(newArray6)// return the mapped array
 
+const newArray7 = array.sort((a, b) => b - a);// return the sorted array in descending order
+console.log(newArray7)// return the sorted array in descending order
+const newArray8 = array.sort((a, b) => a - b);// return the sorted array in ascending order
+console.log(newArray8)// return the sorted array in ascending order
+
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1);
+// Expected output: Array [1, 100000, 21, 30, 4]
 
 
