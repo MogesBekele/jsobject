@@ -184,7 +184,7 @@ console.log(newArray24)// return the entries of the array as a new Array Iterato
 
 const newArray25 = array.forEach(item=>{
 
-  console.log( item*4)// return the forEach of the array
+  console.log( item)// return the forEach of the array
 })
 
 
