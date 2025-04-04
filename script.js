@@ -171,4 +171,12 @@ console.log(newArray20)// return the index of the first element that is greater 
 const newArray21 = array.fill(5);// return the filled array with 0
 console.log(newArray21)// return the filled array with 0
 
+const newArray22 = array.fill( 4);// return the filled array with 0 from index 2 to index 4
+console.log(newArray22)// return the filled array with 0 from index 2 to index 4
+
+
+
+const newArray23 = array.copyWithin(0, 3, 6);
+console.log(newArray23)// return the copied array from index 3 to index 6
+
 
