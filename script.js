@@ -113,4 +113,8 @@ const months3 = months.splice(4, 1, "May");
 console.log(months3);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 
+console.log(months)
+
+
+
 
