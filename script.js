@@ -137,4 +137,13 @@ console.log(array2);
 const newArray9 = array.reverse();// return the reversed array
 console.log(newArray9)// return the reversed array
 
+const newArray10 = array.join();
+console.log(newArray10)// return the joined array
+const newArray11 = array.join(" ");// return the joined array with space
+console.log(newArray11)// return the joined array with space
+
+
+const newArray12 = array.toString();// return the string of the array
+console.log(newArray12)// return the string of the array
+
 
