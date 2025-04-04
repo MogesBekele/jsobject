@@ -186,6 +186,7 @@ const newArray25 = array.forEach((item)=>
   console.log(item))// return the forEach of the array as a new Array Iterator object
 
 const newArray26 = array.keys();// return the keys of the array as a new Array Iterator object
+console.log(newArray26)// return the keys of the array as a new Array Iterator object
 
 // list ot array method which are used frequently
 // 1. Array.from() - Creates a new array instance from an array-like or iterable object.
