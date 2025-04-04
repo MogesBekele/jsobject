@@ -81,6 +81,9 @@ console.log(newArray1)// return the sliced array exccluding the last index
 const newArray2 = array.slice(5, 10);// return the sliced array excuding the first index
 console.log(newArray2)// return the sliced array excuding the first index
 
+const newArray3 = array.reduce((accumulator, currentValue) => accumulator + currentValue);// return the sum of the array elements
+console.log(newArray3)// return the sum of the array elements
+
 
 
 
