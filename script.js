@@ -168,6 +168,6 @@ console.log(newArray19)// return the first element that is greater than 0
 
 const newArray20 = array.findIndex((item) => item);
 console.log(newArray20)// return the index of the first element that is greater than 0
-const newArray21 = array.fill(0);// return the filled array with 0
+const newArray21 = array.fill(5);// return the filled array with 0
 console.log(newArray21)// return the filled array with 0
 
