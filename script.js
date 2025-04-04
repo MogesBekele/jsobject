@@ -93,6 +93,7 @@ const newArray4 = array.splice(4, 1, 2);// return the spliced array
 console.log(array)
 console.log(newArray4)// return the spliced array
 const newArray5 = array.splice(1, 1, 9);// return the spliced array
+console.log(array)
 console.log(newArray5)// return the spliced array
 
 //explanation of splice methods: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
