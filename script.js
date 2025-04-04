@@ -179,4 +179,18 @@ console.log(newArray22)// return the filled array with 0 from index 2 to index 4
 const newArray23 = array.copyWithin(0, 7, 6);// return the copied array from index 3 to index 6
 console.log(newArray23)// return the copied array from index 3 to index 6
 
+// list ot array method which are used frequently
+// 1. Array.from() - Creates a new array instance from an array-like or iterable object.
+// 2. Array.isArray() - Determines whether the passed value is an Array.
+// 3. Array.of() - Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
+// 4. Array.prototype.concat() - Merges two or more arrays and returns a new array without changing the existing arrays.
+// 5. Array.prototype.copyWithin() - Copies part of an array to another location in the same array and returns it without modifying its size.
+// 6. Array.prototype.entries() - Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
+// 7. Array.prototype.every() - Tests whether all elements in the array pass the test implemented by the provided function. Returns a Boolean value.
+// 8. Array.prototype.fill() - Fills all the elements of an array from a start index to an end index with a static value. It returns the modified array.
+
+// 9. Array.prototype.filter() - Creates a new array with all elements that pass the test implemented by the provided function.
+// 10. Array.prototype.find() - Returns the value of the first element in the provided array that satisfies the provided testing function. Otherwise undefined is returned.
+// 11. Array.prototype.findIndex() - Returns the index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned.
+// 12. Array.prototype.flat() - Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
