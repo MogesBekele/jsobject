@@ -117,6 +117,8 @@ console.log(months3);
 
 console.log(months)
 
+const newArray6 = array.map((item) => item * 2);// return the mapped array
+console.log(newArray6)// return the mapped array
 
 
 
