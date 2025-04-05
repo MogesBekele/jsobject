@@ -212,7 +212,7 @@ array.forEach((item, index) => {
 // give me free access to the internet and I will fetch data from the internet and display it on the page
 // fetch('https://jsonplaceholder.typicode.com/posts')
 
-
+const searchbutton = document.getElementById("search-button");
 const fetchData = async ()=>{
   try {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
