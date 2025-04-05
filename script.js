@@ -205,3 +205,8 @@ array.forEach((item, index) => {
 // 13. Array.prototype.flatMap() - Creates a new array by applying a given function to each element of an array (like map) and then flattening the result.
 // 14. Array.prototype.forEach() - Executes a provided function once for each array element.
 
+
+
+
+// tutor on data fetching in js
+
