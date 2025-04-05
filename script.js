@@ -226,7 +226,7 @@ const fetchData = async ()=>{
     if (data) {
       
       searchData.innerHTML = data.map(item => `<h2>${item.title}</h2>`).join('');
-      bodyData.innerHTML = data.map(item => `<p>${item.body}</p>`);
+      bodyData.innerHTML = data.map(item => `<p>${item.body}</p>`).join('');
       bodyData.style.display = "block";
       searchData.style.display = "block";
     }
