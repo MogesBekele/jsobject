@@ -212,7 +212,8 @@ array.forEach((item, index) => {
 // give me free access to the internet and I will fetch data from the internet and display it on the page
 // fetch('https://jsonplaceholder.typicode.com/posts')
 
-const searchData = document.getElementById("api-data");
+const searchData = document.getElementById("api-title");
+const bodyData = document.getElementById("api-body");
 
 const fetchData = async ()=>{
   try {
@@ -224,7 +225,7 @@ const fetchData = async ()=>{
     console.log(data);
     if (data) {
       
-      searchData.innerHTML = data.map(item => `<p>${item.title}</p>`).join('');
+      searchData.innerHTML = data.map(item => `<h5>${item.title}</h5>`).join('');
       searchData.style.display = "block";
     }
   } catch (error) {
