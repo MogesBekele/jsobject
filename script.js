@@ -226,6 +226,8 @@ const fetchData = async ()=>{
     if (data) {
       
       searchData.innerHTML = data.map(item => `<h5>${item.title}</h5>`).join('');
+      bodyData.innerHTML = data.map(item => `<p>${item.body}</p>`).join('');
+      bodyData.style.display = "block";
       searchData.style.display = "block";
     }
   } catch (error) {
