@@ -209,4 +209,20 @@ array.forEach((item, index) => {
 
 
 // tutor on data fetching in js
+// give me free access to the internet and I will fetch data from the internet and display it on the page
+// fetch('https://jsonplaceholder.typicode.com/posts')
+
+
+const fetchData = async ()=>{
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('There has been a problem with your fetch operation:', error);
+  }
+}
 
