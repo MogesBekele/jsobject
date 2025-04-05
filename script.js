@@ -225,6 +225,7 @@ const fetchData = async ()=>{
     if (data) {
       
       searchData.innerHTML = data.map(item => `<p>${item.title}</p>`).join('');
+      searchData.style.display = "block";
     }
   } catch (error) {
     console.error('There has been a problem with your fetch operation:', error);
