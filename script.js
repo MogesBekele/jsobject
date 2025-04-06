@@ -263,6 +263,11 @@ const square = (x) => x * x;
 console.log(square(5)); // 25
 
 // higher order function example
+// A higher-order function is a function that either:
+
+// Takes one or more functions as arguments, or
+
+// Returns a function as its result.
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8, 10]
