@@ -278,7 +278,7 @@ const addOne = (x) => x + 1;
 const multiplyByTwo = (x) => x * 2;
 
 const higherOrderFunction = (fn1, fn2) => (x) => fn1(fn2(x));// This function takes two functions as arguments and returns a new function that applies both functions to a given value.
-const result1 = higherOrderFunction(addOne, multiplyByTwo)(5);// This will first multiply 5 by 2, then add 1 to the result.
+const result1 = higherOrderFunction(addOne, multiplyByTwo)(5);// This will first multiply 5 by 2, then add 1 to the result
 
 
 console.log(result1); // 11 (5 * 2 + 1)
