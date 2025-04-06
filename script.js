@@ -291,3 +291,22 @@ const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8, 10]
 
+
+// Promise example
+const myPromise = new Promise((resolve, reject) => {
+  const success = true; // Simulating success or failure
+  if (success) {
+    resolve("Promise resolved successfully!");
+  } else {
+    reject("Promise rejected.");
+  }
+});
+
+myPromise
+  .then((message) => {
+    console.log(message); // Output: Promise resolved successfully!
+  })
+  .catch((error) => {
+    console.error(error); // Output: Promise rejected.
+  });
+
