@@ -43,6 +43,15 @@ console.log(result);// the result
 const myObj = Object.fromEntries(fruits);
 console.log(myObj) // return the object from the array
 
+const person = {
+  name: 'John',
+  age: 30,
+  greet: function() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+person.greet(); // Hello, my name is John
+
 
 const button = document.getElementById("button");
 
@@ -249,14 +258,7 @@ console.log(multiply(2, 3)); // 6
 console.log(divide(6, 3)); // 2
 
 //object method example
-const person = {
-  name: 'John',
-  age: 30,
-  greet: function() {
-    console.log(`Hello, my name is ${this.name}`);
-  }
-};
-person.greet(); // Hello, my name is John
+
 
 // arrow function example
 const square = (x) => x * x;
