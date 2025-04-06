@@ -310,3 +310,18 @@ myPromise
     console.error(error); // Output: Promise rejected.
   });
 
+
+// async/await example
+const fetchDataAsync = async () => {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('There has been a problem with your fetch operation:', error);
+  }
+};
+fetchDataAsync(); // Call the async function to fetch data
