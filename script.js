@@ -325,3 +325,16 @@ const fetchDataAsync = async () => {
   }
 };
 fetchDataAsync(); // Call the async function to fetch data
+
+// generator example
+
+function* generateNumbers() {
+  let num = 0;
+  while (true) {
+    yield num++;
+  }
+}
+
+const generator = generateNumbers();
+console.log(generator.next().value); // 0
+console.log(generator.next().value); // 1
