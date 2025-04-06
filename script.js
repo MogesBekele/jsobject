@@ -268,6 +268,13 @@ console.log(square(5)); // 25
 // Takes one or more functions as arguments, or
 
 // Returns a function as its result.
+
+const addOne = (x) => x + 1;
+const multiplyByTwo = (x) => x * 2;
+
+const higherOrderFunction = (fn1, fn2) => (x) => fn1(fn2(x));
+const result1 = higherOrderFunction(addOne, multiplyByTwo)(5);
+console.log(result1); // 11 (5 * 2 + 1)
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8, 10]
