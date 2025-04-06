@@ -53,6 +53,9 @@ const person = {
 person.greet(); // Hello, my name is John
 
 
+
+//DOM manipulation methods
+
 const button = document.getElementById("button");
 
 const changeColor = () => {
