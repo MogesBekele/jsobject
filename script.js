@@ -348,14 +348,11 @@ setTimeout(() => {
 setInterval(() => {
   console.log("This message is displayed every 3 seconds.");
 }, 3000); // 3000 milliseconds = 3 seconds
-
-// class example
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
-
-  speak() {
-    console.log(`${this.name} makes a noise.`);
-  }
-}
+// clearInterval example
+const intervalId = setInterval(() => {
+  console.log("This message is displayed every 3 seconds.");
+}, 3000); // 3000 milliseconds = 3 seconds
+setTimeout(() => {
+  clearInterval(intervalId); // Stops the interval after 10 seconds
+  console.log("Interval cleared.");
+}, 10000); // 10000 milliseconds = 10 seconds
