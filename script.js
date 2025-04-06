@@ -334,3 +334,5 @@ function* generatorFunction() {
 
 const generator = generatorFunction();
 console.log(generator.next().value); // Output: Hello
+
+console.log(generator.next().value); // Output: World
