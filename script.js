@@ -342,9 +342,7 @@ console.log(generator.next().value); // Output: World
 // setTimeout example
 
 // setInterval example
-setInterval(() => {
-  console.log("This message is displayed every 3 seconds.");
-}, 3000); // 3000 milliseconds = 3 seconds
+
 // clearInterval example
 const intervalId = setInterval(() => {
   console.log("This message is displayed every 3 seconds.");
