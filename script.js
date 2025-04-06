@@ -336,3 +336,26 @@ const generator = generatorFunction();
 console.log(generator.next().value); // Output: Hello
 
 console.log(generator.next().value); // Output: World
+
+
+
+// setTimeout example
+setTimeout(() => {
+  console.log("This message is displayed after 2 seconds.");
+}, 2000); // 2000 milliseconds = 2 seconds
+
+// setInterval example
+setInterval(() => {
+  console.log("This message is displayed every 3 seconds.");
+}, 3000); // 3000 milliseconds = 3 seconds
+
+// class example
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
