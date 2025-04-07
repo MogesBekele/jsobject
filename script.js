@@ -358,3 +358,22 @@ setTimeout(() => {
 }, 10000); // 10000 milliseconds = 10 seconds
 
 
+// class example
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log(`${this.name} barks loudly.`);
+  }
+}
+const dog = new Dog("Buddy");
+dog.speak(); // Output: Buddy makes a noise.
+dog.bark(); // Output: Buddy barks loudly.
