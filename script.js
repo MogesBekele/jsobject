@@ -302,9 +302,11 @@ const myPromise = new Promise((resolve, reject) => {
   }
 });
 
-myPromise.then({message})
-.catch({
-  
+myPromise.then((message)=>{
+  console.log(message);
+})
+.catch((error)=>{
+  console.error(error);
 })
  
 
