@@ -409,7 +409,11 @@ dog1.speak(); // Output: Buddy makes a noise.
 dog1.bark(); // Output: Buddy barks loudly.
 
 
-// event listener example
+// another js function
+
+
+
+
 
 
 
