@@ -302,14 +302,11 @@ const myPromise = new Promise((resolve, reject) => {
   }
 });
 
-myPromise
-  .then((message) => {
-    console.log(message); // Output: Promise resolved successfully!
-  })
-  .catch((error) => {
-    console.error(error); // Output: Promise rejected.
-  });
-
+myPromise.then({message})
+.catch({
+  
+})
+ 
 
 // async/await example
 const fetchDataAsync = async () => {
