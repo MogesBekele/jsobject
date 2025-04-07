@@ -356,3 +356,5 @@ setTimeout(() => {
   clearInterval(intervalId); // Stops the interval after 10 seconds
   console.log("Interval cleared.");
 }, 10000); // 10000 milliseconds = 10 seconds
+
+
