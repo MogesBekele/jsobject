@@ -376,7 +376,12 @@ dog.bark(); // Output: Buddy barks loudly.
 
 
 
-// another js function
+
+
+
+
+
+
 
 
 
