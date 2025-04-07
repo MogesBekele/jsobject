@@ -376,43 +376,6 @@ dog.bark(); // Output: Buddy barks loudly.
 
 
 
-// module example
-
-// Exporting a function
-
-export function add(a, b) {
-  return a + b;
-}
-
-// Exporting an object
-
-export const myObject = {
-  name: "John",
-  age: 30,
-};
-
-// Importing a function and an object
-import { add, myObject } from './module.js';
-console.log(add(2, 3)); // Output: 5
-console.log(myObject.name); // Output: John
-
-// Exporting a class
-
-export class MyClass {
-  constructor(name) {
-    this.name = name;
-  }
-
-  sayHello() {
-    console.log(`Hello, my name is ${this.name}`);
-  }
-}
-
-// Importing a class
-
-
-
-
 
 
 
