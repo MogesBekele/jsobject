@@ -376,6 +376,14 @@ dog.bark(); // Output: Buddy barks loudly.
 
 
 
+// module example
+
+// Exporting a function
+
+
+
+
+
 
 
 
