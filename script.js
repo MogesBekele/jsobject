@@ -294,7 +294,7 @@ console.log(doubled); // [2, 4, 6, 8, 10]
 
 // Promise example
 const myPromise = new Promise((resolve, reject) => {
-  const success = false; // Simulating success or failure
+  const success = true; // Simulating success or failure
   if (success) {
     resolve("Promise resolved successfully!");
   } else {
