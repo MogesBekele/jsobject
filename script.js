@@ -380,6 +380,21 @@ dog.bark(); // Output: Buddy barks loudly.
 
 // Exporting a function
 
+export function add(a, b) {
+  return a + b;
+}
+
+// Exporting an object
+
+export const myObject = {
+  name: "John",
+  age: 30,
+};
+
+// Importing a function and an object
+import { add, myObject } from './module.js';
+
+
 
 
 
