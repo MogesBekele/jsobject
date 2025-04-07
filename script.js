@@ -393,6 +393,22 @@ export const myObject = {
 
 // Importing a function and an object
 import { add, myObject } from './module.js';
+console.log(add(2, 3)); // Output: 5
+console.log(myObject.name); // Output: John
+
+// Exporting a class
+
+export class MyClass {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHello() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+}
+
+
 
 
 
