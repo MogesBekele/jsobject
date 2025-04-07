@@ -377,3 +377,14 @@ class Dog extends Animal {
 const dog = new Dog("Buddy");
 dog.speak(); // Output: Buddy makes a noise.
 dog.bark(); // Output: Buddy barks loudly.
+
+// prototype example
+function Person(name) {
+  this.name = name;
+}
+Person.prototype.greet = function() {
+  console.log(`Hello, my name is ${this.name}.`);
+};
+const person1 = new Person("Alice");
+person1.greet(); // Output: Hello, my name is Alice.
+
