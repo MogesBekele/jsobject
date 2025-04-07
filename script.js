@@ -294,7 +294,7 @@ console.log(doubled); // [2, 4, 6, 8, 10]
 
 // Promise example
 const myPromise = new Promise((resolve, reject) => {
-  const success = true; // Simulating success or failure
+  const success = fetch('https://jsonplaceholder.typicode.com/posts')
   if (success) {
     resolve("Promise resolved successfully!");
   } else {
