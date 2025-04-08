@@ -374,7 +374,8 @@ const dog = new Dog("Buddy");
 dog.speak(); // Output: Buddy makes a noise.
 dog.bark(); 
 
-//
+
+// Output: Buddy barks loudly.
 
 
 
