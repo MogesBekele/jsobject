@@ -378,15 +378,13 @@ dog.bark();
 // Output: Buddy barks loudly.
 
 //closure method
-
- const function closure(){
-  let count = 0;
+const function closure() {
+  let count = 0; // A variable defined in the outer function
   return function() {
-    count++;
-    console.log(count);
-  }
-
- }
+    count++; // The inner function modifies the outer variable
+    console.log(count); // Logs the updated value of `count`
+  };
+};
 
   const counter = closure();
   counter(); // Output: 1
