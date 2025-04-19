@@ -386,9 +386,9 @@ function closure() {
   };
 };
 
-  const counter = closure();
-  counter(); // Output: 1
-  counter(); // Output: 2
+const counter = closure(); // Create a closure instance
+counter(); // Output: 1
+counter(); // Output: 2
 
 
 
