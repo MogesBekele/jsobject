@@ -377,6 +377,10 @@ dog.bark();
 
 // Output: Buddy barks loudly.
 
+//closure method
+
+
+
 
 
 
