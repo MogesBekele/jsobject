@@ -379,6 +379,15 @@ dog.bark();
 
 //closure method
 
+const function closure(){
+  let count = 0; // Private variable
+
+  return function() {
+    count++;
+    console.log(`Count: ${count}`);
+  };
+}
+
 
 
 
