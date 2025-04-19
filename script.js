@@ -379,16 +379,18 @@ dog.bark();
 
 //closure method
 
-const function closure(){
-  let count = 0; // Private variable
-
+ const function closure(){
+  let count = 0;
   return function() {
     count++;
-    console.log(`Count: ${count}`);
-  };
-}
+    console.log(count);
+  }
 
+ }
 
+  const counter = closure();
+  counter(); // Output: 1
+  counter(); // Output: 2
 
 
 
