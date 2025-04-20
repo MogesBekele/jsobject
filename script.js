@@ -381,7 +381,7 @@ dog.bark();
 function closure() {
   let count = 0; // A variable defined in the outer function
   return function() {
-    count++; // The inner function modifies the outer variable
+    count++;
     console.log(count); 
   };
 };
