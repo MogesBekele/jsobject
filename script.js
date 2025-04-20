@@ -382,7 +382,7 @@ function closure() {
   let count = 0; // A variable defined in the outer function
   return function() {
     count++;// Increment the count variable
-    console.log(count); 
+    console.log(count); // Access the count variable from the outer function
   };
 };
 
